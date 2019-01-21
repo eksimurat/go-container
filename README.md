@@ -8,6 +8,6 @@ The go container will be running inside a Docker container by itself for two rea
 
 # Some Terminology
 
-Check out this nice resource to have a good idea on process namespaces:
+Check out this nice resource to have a good idea on namespaces:
 https://en.wikipedia.org/wiki/Linux_namespaces
 
