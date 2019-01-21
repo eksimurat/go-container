@@ -1,0 +1,11 @@
+version: '3.5'
+
+services:
+  golang:
+    privileged: true
+    build: 
+        context: .
+        dockerfile: Dockerfile
+    volumes:
+      - .:/golang-workspace
+    #entrypoint: ["bash", "go", "run", "container.go", "run"]
